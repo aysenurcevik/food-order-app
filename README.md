@@ -35,13 +35,13 @@
 ##  Kurulum ve Çalıştırma
 
 ###  Backend Kurulum
- # cd backend
-# mvn clean install
-# mvn spring-boot:run
+- cd backend
+ - mvn clean install
+ - mvn spring-boot:run
 
 ### Frontend Kurulum
-# cd frontend
-# npm install
-# npm run dev
+ - cd frontend
+ - npm install
+ - npm run dev
 
 
