@@ -1,0 +1,145 @@
+.owner-page {
+  min-height: 100vh;
+  background-color: var(--bg);
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.owner-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 24px;
+  background: var(--bg);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.actions button {
+  background: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.owner-main {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  gap: 24px;
+}
+
+.restaurants-panel {
+  width: 30%;
+  background: #f9fafb;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.restaurants-panel ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+
+.restaurants-panel li {
+  padding: 8px;
+  margin-bottom: 6px;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #e5e7eb;
+}
+
+.restaurants-panel li.active {
+  background: #facc15;
+  color: white;
+}
+
+.restaurant-detail {
+  flex: 1;
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.form-section,
+.menu-section {
+  margin-top: 20px;
+}
+
+.form-section input,
+.form-section textarea,
+.menu-section input,
+.menu-section textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.form-section button,
+.menu-section button {
+  background: #50c878;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+button.danger {
+  background: #dc2626;
+}
+
+.menu-item {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.menu-item img {
+  width: 80px;
+  height: 80px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.dark-mode .owner-page {
+  background: #111827;
+  color: #f9fafb;
+}
+
+.dark-mode .restaurants-panel {
+  background: #1f2937;
+}
+
+.dark-mode .restaurant-detail {
+  background: #1f2937;
+}
+
+.dark-mode li {
+  background: #374151;
+  color: #f9fafb;
+}
+
+.dark-mode li.active {
+  background: #facc15;
+  color: #111;
+}

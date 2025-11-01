@@ -1,0 +1,66 @@
+.orders-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.refresh-btn {
+  padding: 8px 12px;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.refresh-btn:hover {
+  background: #1e40af;
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.orders-table th,
+.orders-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.orders-table th {
+  background: #f8fafc;
+  font-weight: 600;
+}
+
+.status-select {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  cursor: pointer;
+}
+
+.status-badge {
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.status-badge.PREPARING {
+  background: #f59e0b;
+}
+
+.status-badge.ON_THE_WAY {
+  background: #2563eb;
+}
+
+.status-badge.DELIVERED {
+  background: #16a34a;
+}

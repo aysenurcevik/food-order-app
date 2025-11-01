@@ -1,0 +1,26 @@
+.owner-select-page {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.restaurant-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 350px;
+  margin: auto;
+}
+
+.restaurant-card-btn {
+  padding: 15px;
+  background: #f3f3f3;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.restaurant-card-btn:hover {
+  background: #ddd;
+}
