@@ -8,11 +8,11 @@
 
 # Özellik | Açıklama 
 
- **Customer**  Restoranları görüntüler, menü inceler, sepete ürün ekler, sipariş verir  
- **Restaurant Owner**  Restoranını yönetir, menü/ürün ekler-düzenler, gelen siparişleri görür  
- **Admin**  Sistemdeki tüm siparişleri görüntüler  
- **Kimlik Doğrulama**  JWT tabanlı oturum sistemi  
- **Şifre Yenileme**  "Şifremi Unuttum" üzerinden yeni şifre belirleme  
+ **Customer** : Restoranları görüntüler, menü inceler, sepete ürün ekler, sipariş verir  
+ **Restaurant Owner** : Restoranını yönetir, menü/ürün ekler-düzenler, gelen siparişleri görür  
+ **Admin** : Sistemdeki tüm siparişleri görüntüler  
+ **Kimlik Doğrulama** : JWT tabanlı oturum sistemi  
+ **Şifre Yenileme** : "Şifremi Unuttum" üzerinden yeni şifre belirleme  
 
 ---
 
@@ -35,13 +35,13 @@
 ##  Kurulum ve Çalıştırma
 
 ###  Backend Kurulum
-cd backend
-mvn clean install
-mvn spring-boot:run
+ # cd backend
+# mvn clean install
+# mvn spring-boot:run
 
 ### Frontend Kurulum
-cd frontend
-npm install
-npm run dev
+# cd frontend
+# npm install
+# npm run dev
 
 
